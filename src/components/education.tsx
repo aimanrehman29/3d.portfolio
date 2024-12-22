@@ -1,5 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
+import SkillsSection from "./skills";
 
 
 const Education = () => {
@@ -20,7 +21,7 @@ const Education = () => {
     },
   ];
 
-  return (<div id="education" className="py-24 ">
+  return (<div id="education" className=" ">
     <div  className="relative py-16 bg-gray-900 text-white overflow-hidden ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
         <h2 className="text-4xl font-bold mb-12 text-center">Education</h2>
@@ -49,6 +50,7 @@ const Education = () => {
         </div>
       </div>
     </div>
+    <SkillsSection />
     </div>
   );
 };
