@@ -1,5 +1,6 @@
 "use client"
 import Typewriter from 'typewriter-effect';
+import Image from 'next/image';
 
 export default function Hero() {
     return (
@@ -16,14 +17,16 @@ export default function Hero() {
   
           {/* Floating Profile Picture */}
           <div className="relative z-10 animate-float">
-            <img
+            <Image
               src="/images/image (1).png"
               alt="Profile"
+              width={200}
+              height={200}
               className="w-48 h-48 rounded-full shadow-lg border-4 border-gray-800"
             />
           </div>
           <h1 className="relative z-10 text-3xl font-bold mt-6 mb-4">
-            Hi, I'm Aiman Rehman
+            Hi, I am Aiman Rehman
           </h1>
           <h1 className="relative z-10 text-5xl font-bold mt-2 mb-4">
           <Typewriter
