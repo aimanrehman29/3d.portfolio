@@ -1,6 +1,12 @@
-import React from 'react'
+"use client"
+import React from 'react';
 
-const Contact = () => {
+const Contact: React.FC = () => {
+  const handleEmailClick = () => {
+    window.location.href = "mailto:aimanshahzad295@gmail.com?subject=Job%20Inquiry&body=Hello,%20I%20would%20like%20to%20connect%20with%20you.";
+  };
+
+
   return (
     <div id='contact' className='bg-gray-200 md:px-0 lg:px-10  lg:py-1'>
       <section  className="text-gray-600 body-font relative shadow-lg border border-gray-300 rounded-lg md:m-4 lg:m-20 bg-white">
@@ -59,11 +65,11 @@ const Contact = () => {
           </div>
         </div>
         <div className="p-2 w-full">
-          <button className="flex mx-auto text-white bg-gray-800 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-            Button
+          <button className="flex mx-auto text-white bg-gray-800 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg"  onClick={handleEmailClick}>
+          Hire Me
           </button>
+      
         </div>
- 
       </div>
     </div>
   </div>
