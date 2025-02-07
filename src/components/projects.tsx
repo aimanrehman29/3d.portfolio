@@ -7,7 +7,7 @@ export default function Project() {
       description:
         "Developed a responsive and dynamic e-commerce website using Next.js and Tailwind CSS, featuring seamless navigation, optimized performance, and modern UI/UX design.",
       imageUrl: "/images/image copy.png",
-      vercelLink :"https://hack-ecommerce.vercel.app/"
+      vercelLink :"https://hack-ecommerce-brhb.vercel.app/"
     },
     {
       title: "Resume Builder with Download Feature",
